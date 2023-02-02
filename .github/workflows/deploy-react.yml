@@ -1,5 +1,5 @@
-name: React JS CI
-on: push
+name: Deploy React
+on: [push, workflow_dispatch]
 jobs:
   test:
     runs-on: ubuntu-latest
